@@ -1,0 +1,13 @@
+After you checked out from CVS, do
+
+./autogen.sh
+./configure
+
+and after that:
+
+make clean
+make
+
+This will hopefully compile successfully.
+
+"make install" is currently broken!
