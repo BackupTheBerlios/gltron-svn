@@ -1,0 +1,34 @@
+Installation from source
+
+for URL's on how to get these packages see
+http://www.gltron.org/
+
+Get a working OpenGL / Mesa
+Get libpng / zlib (standard on allmost any system)
+Get SDL-1.1 and SDL_mixer 
+
+Installation
+
+./configure
+make
+
+Type './gltron' to play!
+
+Note: make install is currently broken
+
+make install will install gltron in GLTRON_INSTALLDIR and some other files
+in GLTRON_HOME as defined in the Makefile. By default, GLTRON_INSTALLDIR
+is /usr/bin and GLTRON_HOME is /usr/share/games/gltron.
+
+If the environment variable GLTRON_HOME is defined, it will look
+there first, ./ second, /usr/share/games/gltron third and at last in
+/usr/local/share/games/gltron. If you do a make install and have changed
+GLTRON_HOME, you _must_ set the GLTRON_HOME environment variable.
+
+You might also want to put the GLTRON_HOME environment variable into
+your ~/.profile (bash) or ~/.tcshrc (tcsh).
+
+Start gltron with the -s option if you don't want the sound playing.
+
+These instructions are very brief. I'd be glad if someone could write
+them better.
