@@ -1,0 +1,39 @@
+todo:
+(0) fix z-buffer problems (disable z-write on arena walls, adjust near on recognizer, etc.)
+(0) look at cycle collision problem
+(1) investigate framerate drop in win32 cycle collision test
+(2) recognizer sound
+(2) replay capabilities / fix demo recording / playback
+(1) bug ShreadWheat about his point-of-interest ai technology
+(2) make key pressed modifier immune (shift/capslock, etc.)
+(2) generate uv-coordinates for the model
+(1) fix back-to-front rendering
+(2) work a bit more on line antialiasing (trail tops)
+(2) make HUD configurable
+(2) size HUD according to screen resolution
+(0) investigate mipmapping artefacts under win32
+(0) check USB keyboards. can't they record multiple key presses?
+(0) change color values to something less yogurt-like
+(0) check consistency of glEnable(GL_BLEND);
+(0) add joystick code
+(0) don't show resolutions that can't be accelerated (how can I know?)
+(0) fix ugly console message passing
+(1) implement networking
+(0) fix bitmap bug to allow even faster software rendering
+(0) write software mouse cursor
+(0) move cycle behind posx, posy
+(0) add more special effects (reflections etc.)
+(0) check various TODOs in the code
+(0) dynamically load OpenGL
+(0) add slightly funny console messages (Robot ate Andi's tail)
+(0) investigate halo
+(0) proper documentation
+
+bugs:
+(2) demo playpack is broken after interrupt (Escape) 
+(1) sound samples might overflow
+
+possible bugs:
+(0) more memory leaks
+(0) failing malloc's arent caught, might lock up application/system
+(0) some attributes are not saved to .gltronrc
