@@ -1,0 +1,65 @@
+Immediate:
+
+General
+- Convert artpacks on gltron.org
+- Publish artpack conversion tool
+
+- Work around config bug again
+- Reorder menu structure?
+
+- Multiple listeners fuer Splitscreen
+
+- 2D map scaling
+
+Win32
+- SDL_sound: decent windows binaries with stereo mod & mp3 support
+
+Mac OS X
+- Install Tiger/X-Code 2.0 project files
+- check cycle colors on OS X
+- check cycle on startup on OS X
+- check crashes on OS X
+- SDL_sound: OS X binaries with ogg / mod / mp3 support
+
+Soon:
+
+Video
+- enable non-pow2 textures on newer hardware
+- enable anisotropic filtering on newer hardware
+
+Code (general)
+- cleanup: replace getPath() stuff with nebu calls
+- cleanup: switch to resource manager
+
+Tools
+- Level editing tools
+- Level & artpack preview
+  - Add 'preview' option to Artpack/Level menu
+  - Design Screen layout for previews
+  - Create temporary texture set
+  - Load/Save game state (what about camera position?)
+  - ??
+- Level & artpack packaging tools (consistency check, uploading, etc)
+- Level & artpack browsing for webpage
+- Document artpack.lua
+- support older artpack revisions (4 walls, non-unified GUI),
+  add artpack version to artpack.lua
+
+Homepage
+- CSS support
+- wiki
+- rss feed for news, include in homepage
+- rss feed for blog, include in homepage
+
+- keep developer/art/support information somewhere
+- plea for help
+
+Audio:
+- own cycle: increase volume upon acceeleration, decrease default sound volume
+  for own cycle
+- multiple listeners for split-screen
+
+Project:
+- compile clean TODO list
+- compile priority list
+- revise release schedule
